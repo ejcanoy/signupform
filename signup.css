@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('Norse-Bold.otf') format('opentype');
+  }
+  
+
+button {
+    background-color: #c34730;
+
+}
+
+fieldset {
+    border: none;
+}
+
+img {
+    object-fit: contain;
+}
+
+input, input:valid {
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: white;
+    border-radius: 3px
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color:blue;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px; /* adjust as needed */
+}
+
+.input-row label {
+  margin-bottom: 5px;
+  font-size: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 0.5px;
+  color: darkslategrey;
+}
+
+ legend {
+    padding-left: 12px;
+}
+
+.image-container {
+    position: relative;
+  }
+  
+.tile {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'MyCustomFont', 'san-serif';
+    font-size: 100;
+    color: white;
+    background: black;
+    opacity: 50%;
+  }
+
+/* .right-side {
+    margin-left: 30px;
+} */
+
+.form-header {
+    top: 0%;
+
+    background: lightgrey;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row img {
+  display: inline-block;
+  width: 500px; /* adjust the width as needed */
+  height: auto;
+}
+
+.form-container {
+  max-width: 500 px; /* adjust the max-width as needed */
+  margin: 0 auto;
+  border-color: black;
+  border-style: solid;
+}
+
+
+
+/* 
+input:focus:invalid {
+    outline: none;
+}  */

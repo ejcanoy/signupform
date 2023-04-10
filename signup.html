@@ -4,9 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
     <title>Document</title>
 </head>
 <body>
+
+    <div class="row">
+        <div class="image-container">
+            <!-- <p>Hello</p> -->
+            <!-- <img src="ruslan-ruslan-AhAMJgq5QPM-unsplash.jpg" alt=""> -->
+            <img src="halie-west-25xggax4bSA-unsplash.jpg" alt="">
+            <p class="tile">Hello</p>
+        </div>
+        <div class="right-side">
+            <div class="form-header">
+                <h3>
+                    This is not a real online service! You know you need something like this in your life to
+                    help <i>you</i> realize your deepest dreams. Sign up now to get started.
+                    You <i>know</i> you want to.
+                </h3>
+            </div>
+            <form class="form-container" action="">
+                <legend><h3>Let's do this!</h3></legend>
+        
+                <fieldset class="input-group">
+                    <div class="input-row">
+                      <label for="firstname">FIRST NAME</label>
+                      <input type="text" name="firstname">
+                    </div>
+                    <div class="input-row">
+                      <label for="lastname">LAST NAME</label>
+                      <input type="text" name="lastname">
+                    </div>
+                  </fieldset>
+                <fieldset class="input-group">
+                    <div class="input-row">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" >
+                    </div>
+                    <div class="input-row">
+                        <label for="phonenumber">PHONE NUMBER</label>
+                        <input type="tel" name="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
+                    </div>
+                </fieldset>
+                <fieldset class="input-group">
+                    <div class="input-row">
+                        <label for="password">PASSWORD</label>
+                        <input type="text" name="password" >
+                    </div>
+                    <div class="input-row">
+                        <label for="confirmpassword">CONFIRM PASSWORD</label>
+                        <input type="text" name="confirmpassword" >
+                    </div>
+                </fieldset>
+            </form>
+        
+            <div>
+                <button type="submit" form="a-form">Create Account</button>
+            </div>
+            <div>
+                <span>Already have an account? <a href="#">Log In</a></span>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
