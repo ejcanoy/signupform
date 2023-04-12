@@ -19,11 +19,23 @@ html {
 }
 
 .card-container {
-  display: inline-flex;
+  display: inline;
   position: relative;
   width: 35%;
   vertical-align: top;
   border-style: solid;
+}
+
+.card-footer {
+  position: absolute;
+  bottom: .5rem;
+  left: 1rem;
+  width: 100%;
+  color: rgb(183, 182, 182);
+}
+
+a {
+  color: rgb(183, 182, 182);
 }
 
 .card-image {
